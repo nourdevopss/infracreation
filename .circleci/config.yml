@@ -26,6 +26,7 @@ jobs:
                 --stack-name myStack-${CIRCLE_WORKFLOW_ID:0:5} \
                 --region us-east-1
 # Sequential workflow
+
 workflows:
   # Name the workflow
   myWorkflow:
